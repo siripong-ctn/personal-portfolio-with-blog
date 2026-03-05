@@ -40,5 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# ignore firebaseconnect firebase database
-firebase.js
+.env.local
+.env
+.env.*
