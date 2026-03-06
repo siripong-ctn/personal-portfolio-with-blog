@@ -4,8 +4,6 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { db } from "@/lib/firebase";
 import { collection, getDocs } from "firebase/firestore";
-import UploadImage from "../components/UploadImage";
-import ImageGallery from "../components/ImageGallery";
 
 export default function Home() {
   const [posts, setPosts] = useState<any[]>([]);
