@@ -66,6 +66,7 @@ export default function CreatePost() {
             placeholder="Image URL"
             className="w-full p-2 bg-zinc-800 rounded"
             value={image}
+            required
             onChange={(e) => setImage(e.target.value)}
           />
 
